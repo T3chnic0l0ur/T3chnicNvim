@@ -1297,14 +1297,7 @@ if is_available "markdown-preview.nivm" or is_available "markmap.nvim" or is_ava
   end
 end
 
--- [neural] -----------------------------------------------------------------
-if is_available "neural" or is_available "copilot" then
-  maps.n["<leader>a"] = {
-    function() require("neural").prompt() end,
-    desc = "Ask chatgpt",
-  }
-end
-
+--ToDO, reassign keybind from chatgpt, no point in wasteing it.
 -- hop.nivm ----------------------------------------------------------------
 if is_available "hop.nvim" then
   -- Note that Even though we are using ENTER for hop, you can still select items
