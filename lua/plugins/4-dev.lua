@@ -873,7 +873,9 @@ return {
     },
     config = function(_, opts) require("coverage").setup(opts) end,
   },
-
+  -- #note, removed ai based non-features as i wont use them on grounds of common sense
+  -- this counts as a major change from the base distrobution, and frees a keybind to be reassigned
+  
   -- LANGUAGE IMPROVEMENTS ----------------------------------------------------
   -- guttentags_plus [auto generate C/C++ tags]
   -- https://github.com/skywind3000/gutentags_plus
